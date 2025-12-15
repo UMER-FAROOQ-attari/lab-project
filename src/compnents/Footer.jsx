@@ -1,12 +1,11 @@
 import React from 'react'
-import { FaFacebook } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaTwitterSquare } from "react-icons/fa";
-import { BiSolidContact } from "react-icons/bi";
+ import { FaFacebook } from "react-icons/fa";
+ import { FaSquareInstagram } from "react-icons/fa6";
+ import { FaTwitterSquare } from "react-icons/fa";
+ import { BiSolidContact } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa";
 
-
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
     <div className="footer bg-black text-white p-10 flex flex-col items-center gap-10">
@@ -31,3 +30,5 @@ export const Footer = () => {
     </>
   )
 }
+
+export default Footer
